@@ -1,0 +1,15 @@
+{
+  "name": "redactmodule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository":"https://github.com/veehan95/SimpleReduct.git",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^7.0.1"
+  }
+}
