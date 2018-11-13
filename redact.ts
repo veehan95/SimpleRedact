@@ -8,7 +8,6 @@ export class redact {
   }
 
   public redact(input:string) {
-    console.log(this.ic.redact(input))
     return this.ic.redact(input)
   }
 }
