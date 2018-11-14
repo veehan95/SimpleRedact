@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "keywords": [
+    "redact",
+    "hide text"
+  ],
   "scripts": {
     "start": "ts-node index.ts",
     "test": "mocha -r ts-node/register src/test/*.spec.ts",
