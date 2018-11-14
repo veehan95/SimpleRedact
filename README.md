@@ -16,8 +16,6 @@ or
 
 ### Important Files
 *** Do Not Delete These Files ***
-- node modules:
-  - ts-node
 - redact.ts
 - ./entity/entity.ts
 - ./entity/generate.ts
