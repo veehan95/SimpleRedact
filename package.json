@@ -1,7 +1,7 @@
 {
   "name": "redactmodule",
   "version": "1.0.0",
-  "description": "",
+  "description": "Redact module that can add new rule anytime",
   "main": "index.js",
   "keywords": [
     "redact",
@@ -12,8 +12,11 @@
     "test": "mocha -r ts-node/register src/test/*.spec.ts",
     "create": "ts-node src/generate.ts"
   },
-  "repository": "https://github.com/veehan95/SimpleReduct.git",
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veehan95/SimpleReduct.git"
+  },
+  "author": "Tan Vee Han",
   "license": "ISC",
   "dependencies": {
     "ts-node": "^7.0.1"
@@ -22,5 +25,9 @@
     "@types/mocha": "^5.2.5",
     "chai": "^4.2.0",
     "mocha": "^5.2.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/veehan95/SimpleReduct/issues"
+  },
+  "homepage": "https://github.com/veehan95/SimpleReduct#readme"
 }
