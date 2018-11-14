@@ -4,13 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "create": "echo nice"
+    "start": "ts-node index.ts",
+    "test": "mocha -r ts-node/register src/test/*.spec.ts",
+    "create": "ts-node src/generate.ts"
   },
-  "repository":"https://github.com/veehan95/SimpleReduct.git",
+  "repository": "https://github.com/veehan95/SimpleReduct.git",
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ts-node": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
   }
 }

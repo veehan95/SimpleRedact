@@ -1,13 +1,22 @@
-import {IC} from './entity/ic'
+import {ic} from './src/entity/ic'
 
 export class redact {
-  ic:IC
+  rules:any[]
 
   constructor() {
-    this.ic = new IC()
+    this.rules = [
+      new ic(),
+			//CreateEntity
+    ]
   }
 
   public redact(input:string) {
-    return this.ic.redact(input)
+    var result = input
+
+    for (var rule of this.rules) {
+      result = rule.redact(result)
+    }
+
+    return result
   }
 }
